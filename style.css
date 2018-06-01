@@ -1,0 +1,325 @@
+/*generelle indstillinger */
+
+body,
+figure {
+    margin: 0;
+}
+
+html {
+}
+
+body {
+    /* Vi sikrer os lige at skærmen kan fyldes helt ud! */
+    margin: 0 auto;
+}
+
+#container {
+
+max-width: 1920px;
+
+}
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 30px 0;
+    background-color: white;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, .5);
+}
+
+footer {
+    height: 10em;
+    display: flex;
+}
+
+#foot {
+    margin: 0;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125648;
+    color: white;
+}
+
+
+section {
+
+}
+
+nav {
+    font-family: 'Quicksand', sans-serif;
+    font-size: .9em;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+nav a:link {
+    color: #662702;
+}
+
+/* visited link */
+
+nav a:visited {
+    color: #662702;
+}
+
+/* mouse over link */
+
+nav a:hover {
+    color: #cf8952;
+}
+
+/* selected link */
+
+nav a:active {
+    color: #a8a159;
+}
+
+a {
+
+    font-family: 'Arial', sans-serif;
+    font-size: 1.3rem;
+
+}
+
+
+a:link {
+    color: #662702;
+}
+
+/* visited link */
+
+a:visited {
+    color: #662702;
+}
+
+/* mouse over link */
+
+a:hover {
+    color: #cf8952;
+}
+
+/* selected link */
+
+a:active {
+    color: #a8a159;
+}
+
+
+#splash img {
+
+    width: 100%;
+
+}
+
+
+H1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+H2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    margin: 10px;
+}
+
+H3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin: 10px;
+    color: gold;
+}
+
+
+P {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    overflow: hidden;
+    max-width: 60ch;
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.column {
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 0px 20px 0px 20px;
+    padding: 20px;
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+li {
+    margin: 0;
+}
+
+/* INDEX */
+
+.bodyindex {
+
+background-color: #FF530D;
+
+}
+
+.indexfont {
+
+    color: white;
+}
+
+.headindex {
+
+    background-color: #E82C0C;
+
+}
+
+.footindex {
+
+background-color: #E82C0C;
+
+}
+
+.column_index {
+
+    background-color: #E82C0C;
+
+}
+
+#index .column {
+    background-color: #FF6850;
+}
+
+/* cv */
+
+.bodycv {
+
+background-color: #37FFA4;
+
+}
+
+.fontcv {
+
+    color: #014030;
+}
+
+.headcv {
+
+background-color: #24A66B;
+
+}
+
+.footcv {
+
+background-color: #24A66B;
+
+}
+
+#cv {
+
+    background-color: #37FFA4;
+
+}
+
+#cv .column {
+    background-color: #FF6850;
+}
+
+/* profil */
+
+#profil {
+
+    background-color: #37FFA4;
+
+}
+
+#profil .column {
+    background-color: #FF6850;
+
+}
+
+#profil img {
+
+padding-top: 20px;
+max-width: 95%;
+
+}
+
+
+/* profil */
+
+#erhvervserfaring {
+
+    background-color: #37FFA4;
+
+}
+
+#erhvervserfaring .column {
+    background-color: #FF6850;
+}
+
+
+/* portfolio #CC0001*/
+
+.portfont {
+    color: #FFFC5E;
+}
+
+
+iframe {
+
+  max-width: 100%;
+
+}
+
+.headport {
+    background-color: #CC0001;
+}
+
+.bodyport {
+    background-color: #CC0001;
+}
+
+.footport {
+    background-color: #7F2626;
+
+}
+
+.column_port {
+    background-color: #FF4C4D;
+}
+
+
+@media screen and (max-width: 1024px) {
+}
+
+
