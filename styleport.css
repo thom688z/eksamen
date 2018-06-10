@@ -1,0 +1,423 @@
+/*generelle indstillinger */
+
+html {}
+
+body {
+    /* Vi sikrer os lige at skærmen kan fyldes helt ud! */
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    margin-bottom: 3em;
+}
+
+header img {
+
+    width: 100%;
+    display: block;
+}
+
+footer {
+    display: flex;
+}
+
+nav {
+    position: absolute;
+    top: 1em;
+    padding-left: 5em;
+}
+
+nav a:link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+
+nav a:visited {
+    color: black;
+}
+
+/* mouse over link */
+
+nav a:hover {
+    color: white;
+    font-size: 1.3rem;
+}
+
+/* selected link */
+
+nav a:active {
+    color: black;
+}
+
+a {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+/* visited link */
+
+a:visited {
+    color: #662702;
+}
+
+/* mouse over link */
+
+a:hover {
+    color: #cf8952;
+}
+
+/* selected link */
+
+a:active {
+    color: #a8a159;
+}
+
+H1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+}
+
+H2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.footcolumnL {
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.footcolumnR {
+    padding-left: 20%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+/*porfolio*/
+
+.bodyport {
+    background-color: #ffff00;
+}
+
+#portnav a:hover {
+    color: red;
+    font-size: 1.3rem;
+}
+
+.portH1 {
+
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    padding-top: 1%;
+    font-weight: 200;
+    color: #282828;
+    padding-bottom: 2em;
+    ;
+}
+
+.image {
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    height: 400px;
+    width: 400px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.overlay.left {
+    left: 0;
+}
+
+.overlay.right {
+    right: 0;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.column:hover .overlay {
+    opacity: 1;
+flex-basis: 400px;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#tema img {
+    width: 100%;
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.column {
+    position: relative;
+    width: 50%;
+    flex-basis: 400px;
+    line-height: 20px;
+}
+
+.one {
+    padding-right: 10%;
+}
+
+.two {
+    padding-left: 10%;
+}
+
+#tema h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.5rem;
+}
+
+#tema p {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+}
+
+.footerport {
+    background-color: #ffff00;
+}
+
+.footerPP {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    color: black;
+}
+
+/*EKSTRAS*/
+
+.hidden {
+    visibility: hidden;
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+.buttonplay {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 3px 6px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+}
+
+.buttonplay:hover {
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+}
+
+.buttonplay:active {
+    background-color: orange;
+    color: red;
+}
+
+.buttonplay:visited {
+    background-color: orange;
+    color: red;
+}
+
+.buttonstop {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 3px 6px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+}
+
+.buttonstop:hover {
+    background-color: crimson;
+    padding: 5px 10px;
+    color: white;
+}
+
+.buttonstop:active {
+    background-color: orange;
+    color: red;
+}
+
+.buttonstop:visited {
+    background-color: orange;
+    color: red;
+}
+
+/* UGLE */
+
+#uglepik {
+    overflow: hidden;
+}
+
+#ugle_container {
+    position: absolute;
+    top: 20vw;
+    left: -25vw;
+    right: 0;
+    overflow: hidden;
+    /*left: -25vw;*/
+}
+
+#ugle {
+
+    width: 20vw;
+    height: 28.8vw;
+    background-image: url(ugle-02.svg);
+    background-size: 600% 300%;
+}
+/***************** får ugle til flyve **/
+
+.flying {
+
+    animation-name: flyve_kf;
+    animation-duration: 3s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;
+    transform: scaleX(1);
+}
+
+@keyframes flyve_kf {
+
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+
+        background-position: -400% -0%;
+    }
+}
+/***************** får man fra v - h **/
+
+.fly_in {
+    animation-name: fly_in_kf;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fly_in_kf {
+
+    0% {
+        left: -30vw;
+    }
+
+    100% {
+        left: 120vw;
+    }
+}
+
+
+@media screen and (max-width: 1600px) {
+
+
+.one {
+    padding-right: 8%;
+}
+
+.two {
+    padding-left: 8%;
+}
+
+@media screen and (max-width: 1400px) {
+
+
+.one {
+    padding-right: 6%;
+}
+
+.two {
+    padding-left: 6%;
+}
+
+@media screen and (max-width: 1200px) {
+
+.one {
+    padding-right: 4%;
+}
+
+.two {
+    padding-left: 4%;
+}
+
+@media screen and (max-width: 1100px) {
+
+.one {
+    padding-right: 2%;
+}
+
+.two {
+    padding-left: 2%;
+}
+
+@media screen and (max-width: 900px) {
+
+.column_content {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.column {
+    position: relative;
+    width: 50%;
+}
+
+.one {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5em;
+}
+
+.two {
+    padding-top: 10em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+}
+
+
