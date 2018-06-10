@@ -35,21 +35,21 @@ nav a:link {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 100;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 /* visited link */
 
 nav a:visited {
-    color: black;
+    color: white;
 }
 
 /* mouse over link */
 
 nav a:hover {
-    color: white;
-    font-size: 1.3rem;
+    color: #662702;
+    font-size: 1.2rem;
 }
 
 /* selected link */
@@ -66,7 +66,7 @@ a {
 }
 
 a:link {
-    color: black;
+    color: #662702;
 }
 
 /* visited link */
@@ -292,6 +292,4 @@ H2 {
         padding-right: 5%;
         text-align: center;
     }
-    }
-
 

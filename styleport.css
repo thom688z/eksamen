@@ -390,10 +390,16 @@ H2 {
 }
 
 .two {
-    padding-top: 5em;
+    padding-top: 8em;
     padding-left: 10%;
     padding-right: 10%;
 }
+
+    .column_content {
+
+overflow: hidden;
+
+    }
 
 .overlay {
     top: 5em;
