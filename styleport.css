@@ -147,21 +147,12 @@ H2 {
     background-color: #008CBA;
 }
 
-.overlay.left {
-    left: 0;
-}
-
-.overlay.right {
-    right: 0;
-}
-
 .overlay:hover {
     opacity: 1;
 }
 
 .column:hover .overlay {
     opacity: 1;
-flex-basis: 400px;
 }
 
 .text {
@@ -171,7 +162,6 @@ flex-basis: 400px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
 
@@ -349,7 +339,6 @@ flex-basis: 400px;
     }
 }
 
-
 @media screen and (max-width: 1600px) {
 
 
@@ -394,19 +383,6 @@ flex-basis: 400px;
 
 @media screen and (max-width: 900px) {
 
-.column_content {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 5em;
-}
-
-.column {
-    position: relative;
-    width: 50%;
-}
-
 .one {
     padding-left: 10%;
     padding-right: 10%;
@@ -414,10 +390,14 @@ flex-basis: 400px;
 }
 
 .two {
-    padding-top: 10em;
+    padding-top: 5em;
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.overlay {
+    top: 5em;
 }
 
+    }
 
